@@ -1,0 +1,65 @@
+Original code by lam0re used in the 2011 hack.lu competition.
+Update by Lujing Cen for jQuery 2.x.x for CAMS CTF.
+
+Changes in 3.1
+- Added team stats module.
+- Significantly improved SQL query performance by over 1000%.
+- Added score caching system.
+- Added weekly database backup system.
+
+Changes in 3.00a
+- Fixed semicolons in JS causing some team-team attacks to fail.
+- Users can now view challenges without logging in.
+- Repaired my OCD...
+
+Changes in 3.00
+- Added Team-Team Attacks.
+- PHP Casting.
+- Major CSS Clean Up.
+
+Changes in 2.0
+- Added administrative features.
+- Clarification text sent to better explain errors.
+- Removed unused sound code.
+- Added change password feature.
+- Updated RequestAnimationFrame.
+- Terminal now accessible without key combination.
+- Ability to hide and/or deactivate challenges.
+- Updated download.php with automatic MIME Type detection.
+- Organized web structure.
+- Team members and team flag are now fully implemented.
+- Created ctf2 for web file hosting.
+- Ability to detect browser features and output pertinent errors.
+- More detailed log in page.
+- Dynamic screen sizing system implemented.
+- Ability to change font sizes.
+- Added HackerCat by Erin (very adorable).
+- Implementation of fully automated account creation and information update system.
+- Better border system.
+- Fixed background image sizing.
+- Condensed some .css code.
+- Added password recovery function.
+- Settings are saved to HTML5 localstorage.
+- Form Data fully implemented.
+- Website now fully utillizes HTML5.
+- Teams can upload their own flag.
+
+Changes in 1.4
+- Updated GUI and colors.
+- Added "Fail Counter" to track wrong flag submissions.
+- jQuery 2.1.1 update.
+- Removed some unnecessary script files.
+- Cleaned up HTML code.
+
+Changes in 1.3
+- Ability to view and submit deactivated challenges.
+- More detailed attack page.
+
+Changes in 1.2
+- Removed browser check. Assuming most browsers are modern.
+- Replaced .attr() with .prop() for ajax $.post().
+- Added flag/icon positioning down 2px.
+- Removed marquee as per w3.org. Instead, used simple readable text.
+- Updated graphics.
+- Created vertical centering script for vertical centering.
+- Fixed compatibility with IE and some version of Chrome.
